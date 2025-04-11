@@ -37,5 +37,17 @@ A real-world example of semiconductor packaging can be found in smartphones. Let
 
 ![Picture1](https://github.com/user-attachments/assets/dc1c196a-a4a8-4ad3-981d-fe10b47188b9)
 
-### 🏭 Semiconductor Industry Value Chain
+### 🏭 Semiconductor Industry Segments
+A semiconductor ecosystem is an entire network of industries, technologies, companies, and processes involved in the creation, manufacturing, and deployment of semiconductor devices. It includes everything from the raw materials used to make semiconductors, to the research and development (R&D) efforts that push innovation, to the manufacturing and packaging processes that bring chips into the real world, and finally, the industries and applications that use these chips.
+
+- Fabless companies are semiconductor companies that design and develop chips but do not have their own manufacturing facilities (known as fabs). Instead, they outsource the actual manufacturing (or "fabrication") of their chips to third-party foundries, also known as contract manufacturers or semiconductor fabs. This model allows fabless companies to focus on chip design and innovation without the enormous capital investment required for semiconductor fabrication.
+  Example: Qualcomm, AMD, NVIDIA, etc.
+- Foundries produce integrated circuits (ICs) based on designs provided by other companies, known as fabless companies. Foundries do not design chips themselves but focus on the production process, which involves transforming raw materials (such as silicon) into functional semiconductor components using advanced manufacturing techniques.
+  Example: TSMC, Samsung, etc.
+- **OSAT stands for Outsourced Semiconductor Assembly and Test**. It refers to companies that specialize in the assembly (packaging) and testing of semiconductor devices, but do not engage in the actual fabrication of the semiconductor chips themselves. This sector ensures that the chips are properly enclosed (packaged) to protect them from environmental factors and ready them for integration into electronic devices. Additionally, testing is crucial to verify that each chip functions as intended, meets quality standards, and is free from defects.
+  Example: ASE Group, Amkor Technology, JCET Group, etc.
+- IDM (Integrated Device Manufacturer) companies design, manufacture, assemble, and test their own semiconductor devices. This vertical integration allows IDMs to have full control over their product quality, cost, and production timelines.
+  Example: Intel
+ 
+![Picture2](https://github.com/user-attachments/assets/042f29ff-54a2-4294-b0a1-58756ac6e6ad)
 
