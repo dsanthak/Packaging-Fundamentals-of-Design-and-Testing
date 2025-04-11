@@ -1,4 +1,4 @@
-# Packaging
+# Semiconductor Packaging
 ## Fundamentals of Design and Testing
 
 Author: Deepthi Santhakumar 
