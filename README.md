@@ -1,6 +1,8 @@
 # Packaging
 ## Fundamentals of Design and Testing
+
 Author: Deepthi Santhakumar 
+
 This is my compilation of notes for the [Workshop](https://www.vlsisystemdesign.com/packaging/) on Packaging Fundamentals of Design and Technology with ANSYS tools.
 
 ## 📦 Semiconductor Packaging
