@@ -9,9 +9,9 @@ This is my compilation of notes for the [Workshop](https://www.vlsisystemdesign.
 This repository provides an in-depth understanding into the evolution of packaging, modern packaging techniques, advanced interconnect technologies, thermal simulations, assembly processes, and the critical decision-making processes involved in selecting the right packaging solutions.
 
 ## 📚 Contents
-1. Packaging Evolution: From Basics to 3D Integration
-   - Introduction to Semiconductor Packaging and Industry Overview
-   - Understanding Package Requirements and Foundational Package Types
+1. [Packaging Evolution: From Basics to 3D Integration](#Packaging-Evolution-From-Basics-to-3D-Integration)
+   - [Introduction to Semiconductor Packaging and Industry Overview](#Introduction-to-Semiconductor-Packaging-and-Industry-Overview)
+   - [Understanding Package Requirements and Foundational Package Types](#Understanding Package Requirements and Foundational Package Types)
    - Evolving Package Architectures - from Single-chip to Multi-chip modules
    - Interposers Re-distribution layers and 2.5D/3D Packaging Approaches
    - Comparative Analysis and Selecting the right Packaging Solution
@@ -51,5 +51,6 @@ A semiconductor ecosystem is an entire network of industries, technologies, comp
  
 ![Picture2](https://github.com/user-attachments/assets/042f29ff-54a2-4294-b0a1-58756ac6e6ad)
 
+## Understanding Package Requirements and Foundational Package Types
 
 ## Understanding Package Requirements and Foundational Package Types
