@@ -11,8 +11,8 @@ This repository provides an in-depth understanding into the evolution of packagi
 ## 📚 Contents
 1. [Packaging Evolution: From Basics to 3D Integration](#Packaging-Evolution-From-Basics-to-3D-Integration)
    - [Introduction to Semiconductor Packaging and Industry Overview](#Introduction-to-Semiconductor-Packaging-and-Industry-Overview)
-   - [Understanding Package Requirements and Foundational Package Types](#Understanding Package Requirements and Foundational Package Types)
-   - Evolving Package Architectures - from Single-chip to Multi-chip modules
+   - [Understanding Package Requirements and Foundational Package Types](#Understanding-Package-Requirements-and-Foundational-Package-Types)
+   - [Evolving Package Architectures - from Single-chip to Multi-chip modules](#Evolving-Package-Architectures-from-Single-chip-to-Multi-chip-modules)
    - Interposers Re-distribution layers and 2.5D/3D Packaging Approaches
    - Comparative Analysis and Selecting the right Packaging Solution
 
@@ -53,4 +53,33 @@ A semiconductor ecosystem is an entire network of industries, technologies, comp
 
 ## Understanding Package Requirements and Foundational Package Types
 
-## Understanding Package Requirements and Foundational Package Types
+### 📌 Package Requirements
+In System on Chip (SoC) design, selecting the appropriate package plays a vital role in achieving optimal reliability, efficiency, and performance. As illustrated below, the package serves as a critical interface between the chip and the board, maintaining electrical, thermal, and mechanical integrity.
+
+![Picture3](https://github.com/user-attachments/assets/d8f9d55f-e55e-40df-8f9c-da884ee15726)
+
+The chip is mounted on a package, which in turn is placed on the board. The key question is: how do we choose the right package? 
+
+One major factor is 🔌 electrical connectivity — the package must be capable of interfacing effectively with other packages on the board. If high-speed communication is required, sufficient pin count or interconnects must be supported to meet design needs.
+
+Another critical aspect is 🌡️ thermal requirements. The package must manage heat efficiently. For instance, if the system is expected to operate at very high temperatures (e.g., above 200°C), standard laminate-based packages may not suffice; ceramic or other high thermal performance materials would be more appropriate. This makes the choice of substrate a crucial consideration.
+
+Form factor also plays a role — the physical space available for the package on the board can influence the design. 
+
+Durability and long-term reliability 🔄 are equally important, both of which are heavily influenced by the materials used in the package.
+
+And finally, perhaps the most important factor in any real-world design — cost 💲. The selected package must strike the right balance between performance, reliability, and budget.
+
+### 🧱 Typical Package Structure
+The image below illustrates the internal structure of a typical package and the connectivity.
+
+![Picture4](https://github.com/user-attachments/assets/a3efd0f5-355a-4436-a07f-75f09fc2678b)
+
+To understand the basic structure of a semiconductor package, let’s start with the die. The die is first mounted onto a substrate (or sometimes a carrier), establishing the initial connection through small bond wires or bumps. The substrate provides mechanical support, electrical connectivity, and thermal management. It can be made from materials like ceramic, organic laminates, or metal cores, depending on the application. Once the die is secured to the carrier, the next step is to connect the carrier to the PCB. Finally, a molding compound is applied around the assembly for protection. This material, often a type of epoxy or plastic, serves to protect the delicate components from environmental factors (e.g., moisture, dust) and mechanical stress.
+
+There are two primary mounting technologies used in this process.
+- Through-Hole Mounting (THM): one of the older methods, where the component leads (pins) pass through holes in the PCB and are soldered to pads on the opposite side. Holes are drilled into the PCB where the leads of the package will go. The leads of the component are inserted into these holes. The leads are soldered on the opposite side of the PCB, creating electrical connections.
+- Surface Mount Technology (SMT): involves mounting electronic components directly onto the surface of a PCB, where the component leads are soldered to the surface-mounted pads (instead of being inserted through holes). This is done using automated machinery and solder paste.
+
+
+## Evolving Package Architectures - from Single-chip to Multi-chip modules
