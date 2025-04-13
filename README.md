@@ -174,7 +174,7 @@ TSMC CoWoS (Chip on Wafer on Substrate) integrates a silicon interposer with hig
 
 ## Interposers Re-distribution layers and 2.5D/3D Packaging Approaches
 
-### 🧩 1. Redistribution Layers (RDL)
+### 1. Redistribution Layers (RDL)
 🔍 What is RDL?<br/>
 RDL (Redistribution Layer) is a metal layer added on top of a die or wafer to reroute the I/O pads to new locations. This enables more flexible bump layouts, especially important for fan-out packages or wafer-level chip scale packaging (WLCSP).<br/>
 
@@ -189,7 +189,7 @@ RDL (Redistribution Layer) is a metal layer added on top of a die or wafer to re
       - Reduces package size and thickness<br/>
       - Enables multi-chip placement and interconnect on a single substrate<br/>
 
-### 🧱 2. Interposers<br/>
+### 2. Interposers<br/>
 🔍 What is an Interposer?<br/>
 An interposer is a passive or active layer inserted between the die and the substrate, acting as an intermediate routing interface. It enables dense signal routing, power delivery, and die-to-die interconnect.<br/>
 
@@ -204,7 +204,7 @@ Types: Silicon, Organic, Glass
       - Passive: No logic, just routing and vias<br/>
       - Active: Includes power delivery, clocking, or even memory logic<br/>
 
-### 📐 3.  2.5D/3D Integration
+### 3.  2.5D/3D Integration
 - 2.5D: Multiple dies (e.g., CPU + HBM) placed side-by-side on a common interposer. Interposer provides connectivity, not the substrate directly. Popular in HPC and AI (e.g., AMD Instinct, NVIDIA GPUs with HBM).
 - 3D: Dies are stacked vertically, interconnected through Through-Silicon Vias (TSVs). 3D NAND, HBM memory stacks, logic-on-logic stacking.
 
@@ -214,3 +214,8 @@ Types: Silicon, Organic, Glass
 ![Picture9](https://github.com/user-attachments/assets/5b484386-1720-4f32-8d10-f1e41ec946b0)
 
 
+![Picture10](https://github.com/user-attachments/assets/79045e57-9a53-4b23-8d68-d09f8d00b83c)
+
+## Comparative Analysis and Selecting the right Packaging Solution
+
+![Picture11](https://github.com/user-attachments/assets/cd7052c7-183a-490b-a790-16621c0ec86e)
