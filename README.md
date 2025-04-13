@@ -178,7 +178,7 @@ TSMC CoWoS (Chip on Wafer on Substrate) integrates a silicon interposer with hig
 🔍 What is RDL?<br/>
 RDL (Redistribution Layer) is a metal layer added on top of a die or wafer to reroute the I/O pads to new locations. This enables more flexible bump layouts, especially important for fan-out packages or wafer-level chip scale packaging (WLCSP).<br/>
 
-💡 Applications<br/><br/>
+💡 Applications<br/>
       - Fan-out wafer-level packaging (FO-WLP, FO-BGA)<br/>
       - Panel-level packaging (PLP)<br/>
       - Multi-die integration<br/>
@@ -209,7 +209,7 @@ Types: Silicon, Organic, Glass
 - 3D: Dies are stacked vertically, interconnected through Through-Silicon Vias (TSVs). 3D NAND, HBM memory stacks, logic-on-logic stacking.
 
 
-🧾 **Comparison Table**
+### 🧾 **Comparison Table**
 
 ![Picture9](https://github.com/user-attachments/assets/5b484386-1720-4f32-8d10-f1e41ec946b0)
 
