@@ -89,18 +89,18 @@ There are two primary mounting technologies used in this process.
 Understanding the anatomy of a semiconductor package is essential for evaluating its performance in terms of electrical connectivity, thermal behavior, mechanical durability, and manufacturability. The specific implementation of each element can vary depending on package type, application, and design constraints, but the fundamental structure remains consistent across most modern packages.
 
 #### **Leadframe-Based Packages**
-  A leadframe is a thin sheet of metal (typically copper or copper alloy) stamped or etched to form:<br/>
+A leadframe is a thin sheet of metal (typically copper or copper alloy) stamped or etched to form:<br/>
      - Die pad: A central area where the silicon die is mounted.<br/>
      - Leads: Metal fingers extending outward that serve as electrical paths from the die to the external PCB.<br/>
 
  ⚙️ Basic Structure of a Leadframe Package<br/>
-     1. Silicon Die: Placed on the die pad of the leadframe.
-     2. Die Attach: The die is attached to the pad using adhesive or solder.
-     3. Wire Bonds: Gold or copper wires connect the die’s bond pads to the leads of the frame.
-     4. Encapsulation: The assembly is molded in epoxy resin to protect the internal elements.
-     5. Leads: The outer portion of the metal frame extends beyond the molding compound to allow surface mounting or through-hole soldering.
+     1. Silicon Die: Placed on the die pad of the leadframe.<br/>
+     2. Die Attach: The die is attached to the pad using adhesive or solder.<br/>
+     3. Wire Bonds: Gold or copper wires connect the die’s bond pads to the leads of the frame.<br/>
+     4. Encapsulation: The assembly is molded in epoxy resin to protect the internal elements.<br/>
+     5. Leads: The outer portion of the metal frame extends beyond the molding compound to allow surface mounting or through-hole soldering.<br/>
 
- 📦 Common Leadframe-Based Package Types
+ 📦 Common Leadframe-Based Package Types<br/>
      |Package Type |	Description|
      |------------ | ---------- |
      |DIP (Dual In-line Package)	| Rectangular body with two rows of through-hole leads. Used in older devices and through-hole boards.|
@@ -111,19 +111,19 @@ Understanding the anatomy of a semiconductor package is essential for evaluating
      |QFN (Quad Flat No-lead)	| Exposed pad package without leads; pads are on the bottom for better thermal and electrical performance.|
      |DFN (Dual Flat No-lead)	| Like QFN but with pads only on two sides. Very compact.|
 
-  ✅ Advantages of Leadframe Packages
-      - Cost-Effective: Simple to manufacture, suitable for high-volume production.
-      - Mature Technology: Well-established, with proven reliability.
-      - Good Electrical Performance: Low parasitic inductance for many applications.
-      - Scalable: Available in a wide range of pin counts and sizes.
-      - Thermal Options: Versions like QFN with exposed thermal pads provide better heat dissipation.
+  ✅ Advantages of Leadframe Packages<br/>
+      - Cost-Effective: Simple to manufacture, suitable for high-volume production.<br/>
+      - Mature Technology: Well-established, with proven reliability.<br/>
+      - Good Electrical Performance: Low parasitic inductance for many applications.<br/>
+      - Scalable: Available in a wide range of pin counts and sizes.<br/>
+      - Thermal Options: Versions like QFN with exposed thermal pads provide better heat dissipation.<br/>
 
-  ❌ Limitations
-      - Limited I/O Density: Compared to advanced packaging (e.g., BGA or flip-chip).
-      - Thermal and Electrical Performance: May not meet requirements for very high-performance systems.
-      - Size: Leaded versions (like DIP and SOP) can be bulky compared to modern alternatives.
+  ❌ Limitations<br/>
+      - Limited I/O Density: Compared to advanced packaging (e.g., BGA or flip-chip).<br/>
+      - Thermal and Electrical Performance: May not meet requirements for very high-performance systems.<br/>
+      - Size: Leaded versions (like DIP and SOP) can be bulky compared to modern alternatives.<br/>
 
-  💡 Applications of Leadframe Packages
+  💡 Applications of Leadframe Packages<br/>
       - Consumer electronics
       - Automotive electronics
       - Power management ICs
