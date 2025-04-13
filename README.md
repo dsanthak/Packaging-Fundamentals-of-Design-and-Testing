@@ -12,7 +12,7 @@ This repository provides an in-depth understanding into the evolution of packagi
 1. [Packaging Evolution: From Basics to 3D Integration](#Packaging-Evolution-From-Basics-to-3D-Integration)
    - [Introduction to Semiconductor Packaging and Industry Overview](#Introduction-to-Semiconductor-Packaging-and-Industry-Overview)
    - [Understanding Package Requirements and Foundational Package Types](#Understanding-Package-Requirements-and-Foundational-Package-Types)
-   - [Evolving Package Architectures - from Single-chip to Multi-chip modules](#Evolving-Package-Architectures-from-Single-chip-to-Multi-chip-modules)
+   - [Evolving Package Architectures from Single-chip to Multi-chip modules](#Evolving-Package-Architectures-from-Single-chip-to-Multi-chip-modules)
    - [Interposers Re-distribution layers and 2.5D/3D Packaging Approaches](#Interposers-Re-distribution-layers-and-2.5D/3D-Packaging-Approaches)
    - [Comparative Analysis and Selecting the right Packaging Solution](#Comparative-Analysis-and-Selecting-the-right-Packaging-Solution)
 
@@ -83,7 +83,7 @@ There are two primary mounting technologies used in this process.
 
 ![Picture5](https://github.com/user-attachments/assets/6947cc8d-ef0e-4200-9088-cf6f9d6770f9)
 
-## Evolving Package Architectures - from Single-chip to Multi-chip modules
+## Evolving Package Architectures from Single-chip to Multi-chip modules
 
 ### 📦 Anatomy of Packages
 Understanding the anatomy of a semiconductor package is essential for evaluating its performance in terms of electrical connectivity, thermal behavior, mechanical durability, and manufacturability. The specific implementation of each element can vary depending on package type, application, and design constraints, but the fundamental structure remains consistent across most modern packages.
