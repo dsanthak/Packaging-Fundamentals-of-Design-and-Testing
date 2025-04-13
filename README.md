@@ -13,7 +13,7 @@ This repository provides an in-depth understanding into the evolution of packagi
    - [Introduction to Semiconductor Packaging and Industry Overview](#Introduction-to-Semiconductor-Packaging-and-Industry-Overview)
    - [Understanding Package Requirements and Foundational Package Types](#Understanding-Package-Requirements-and-Foundational-Package-Types)
    - [Evolving Package Architectures from Single-chip to Multi-chip modules](#Evolving-Package-Architectures-from-Single-chip-to-Multi-chip-modules)
-   - [Interposers Re-distribution layers and 2.5D/3D Packaging Approaches](#Interposers-Re-distribution-layers-and-2.5D/3D-Packaging-Approaches)
+   - [Interposers Re-distribution layers and 2.5D and 3D Packaging Approaches](#Interposers-Re-distribution-layers-and-2.5D-and-3D-Packaging-Approaches)
    - [Comparative Analysis and Selecting the right Packaging Solution](#Comparative-Analysis-and-Selecting-the-right-Packaging-Solution)
 
 
@@ -172,7 +172,7 @@ TSMC CoWoS (Chip on Wafer on Substrate) integrates a silicon interposer with hig
 
 ![Picture8](https://github.com/user-attachments/assets/84668869-86ae-435d-8937-7db969206eae)
 
-## Interposers Re-distribution layers and 2.5D/3D Packaging Approaches
+## Interposers Re-distribution layers and 2.5D and 3D Packaging Approaches
 
 ### 1. Redistribution Layers (RDL)
 🔍 What is RDL?<br/>
