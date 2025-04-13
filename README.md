@@ -282,7 +282,74 @@ Example<br/>
 
 ### Introduction to a Package Manufacturing Unit (ATMP)
 
-The ATMP process involves four core activities: Assembly, Testing, Marking, and Packaging.
+The ATMP process involves four core activities: Assembly, Testing, Marking, and Packaging.<br/>
+
+🏭 Where is ATMP Performed?<br/>
+
+Major ATMP Hubs:<br/>
+- ASEAN region: Malaysia, Vietnam, Thailand, Philippines<br/>
+- East Asia: Taiwan, China, South Korea<br/>
+- Rising hubs: India, Mexico<br/>
+
+Key Players:<br/>
+- OSATs (Outsourced Semiconductor Assembly & Test): ASE, Amkor, JCET, UTAC<br/>
+- IDMs with in-house ATMP: Intel, Samsung, Micron<br/>
+
+![Picture14](https://github.com/user-attachments/assets/6afc50aa-7817-4f7f-b2fc-52d17cbb6f17)
+
+Layout of an ATMP unit:<br/>
+
++-------------------------------------------------------------+
+|                        ADMIN / OFFICE                       |
+|  - Design Review  - Data Management  - QA/Engineering Lab   |
++----------------------------+--------------------------------+
+                             |
+                             v
++---------------------------+-------------------------------+
+|                  MATERIALS RECEIVING / WAREHOUSE           |
+|  - Incoming Wafers                                          |
+|  - Substrates, Leadframes, Mold Compounds, Consumables     |
++---------------------------+-------------------------------+
+                             |
+                             v
++-------------------------------------------------------------+
+|             CLEANROOM / PRODUCTION AREA (Class 1000–10000) |
+|                                                             |
+|  [1] Die Preparation          [2] Die Attach & Mount        |
+|  - Wafer sawing              - Pick & place                 |
+|  - Cleaning                  - Die attach (epoxy/paste)     |
+|                                                             |
+|  [3] Wire Bonding / Flip-Chip Bonding                       |
+|  - Ball or wedge bonding     - Flip-chip bumping            |
+|                                                             |
+|  [4] Encapsulation / Molding                                |
+|  - Transfer molding         - Compression molding           |
+|                                                             |
+|  [5] Singulation (if not done earlier)                      |
+|  - Sawing packages from panel or leadframe                  |
+|                                                             |
+|  [6] Final Assembly & Finishing                             |
+|  - Ball attach (BGA)         - Plating / Surface finish     |
++-------------------------------------------------------------+
+                             |
+                             v
++-------------------------------------------------------------+
+|                         TEST AREA (ATE)                     |
+|  - Electrical test         - Burn-in test                   |
+|  - Functional test         - Yield analysis                 |
++-------------------------------------------------------------+
+                             |
+                             v
++------------------------+      +----------------------------+
+| MARKING & LASER ENGRAVE| ---> | FINAL INSPECTION / QA      |
++------------------------+      +----------------------------+
+                             |
+                             v
++------------------------+      +----------------------------+
+| PACKAGING & LABELING   | ---> | SHIPPING / OUTBOUND LOGISTICS |
++------------------------+      +----------------------------+
+
+
 
 
 
