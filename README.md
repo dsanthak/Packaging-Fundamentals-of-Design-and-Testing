@@ -88,12 +88,12 @@ There are two primary mounting technologies used in this process.
 ### 📦 Anatomy of Packages
 Understanding the anatomy of a semiconductor package is essential for evaluating its performance in terms of electrical connectivity, thermal behavior, mechanical durability, and manufacturability. The specific implementation of each element can vary depending on package type, application, and design constraints, but the fundamental structure remains consistent across most modern packages.
 
-- Leadframe-Based Packages
-  A leadframe is a thin sheet of metal (typically copper or copper alloy) stamped or etched to form:
-     - Die pad: A central area where the silicon die is mounted.
-     - Leads: Metal fingers extending outward that serve as electrical paths from the die to the external PCB.
+#### **Leadframe-Based Packages**
+  A leadframe is a thin sheet of metal (typically copper or copper alloy) stamped or etched to form:<br/>
+     - Die pad: A central area where the silicon die is mounted.<br/>
+     - Leads: Metal fingers extending outward that serve as electrical paths from the die to the external PCB.<br/>
 
- ⚙️ Basic Structure of a Leadframe Package
+ ⚙️ Basic Structure of a Leadframe Package<br/>
      1. Silicon Die: Placed on the die pad of the leadframe.
      2. Die Attach: The die is attached to the pad using adhesive or solder.
      3. Wire Bonds: Gold or copper wires connect the die’s bond pads to the leads of the frame.
