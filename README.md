@@ -17,7 +17,7 @@ This repository provides an in-depth understanding into the evolution of packagi
    - [Comparative Analysis and Selecting the right Packaging Solution](#Comparative-Analysis-and-Selecting-the-right-Packaging-Solution)
 2. [From Wafer to Package: Assembly and Manufacturing Essentials](#From-Wafer-to-Package-Assembly-and-Manufacturing-Essentials)
    - Setting the Stage - Supply Chain and Facilities
-   - Wafer
+   - Wafer pre-preparation: Grinding and Dicing
 
 
 
@@ -299,63 +299,14 @@ Key Players:<br/>
 
 Layout of an ATMP unit:<br/>
 
-+-------------------------------------------------------------+
-|                        ADMIN / OFFICE                       |
-|  - Design Review  - Data Management  - QA/Engineering Lab   |
-+----------------------------+--------------------------------+
-                             |
-                             v
-+---------------------------+-------------------------------+
-|                  MATERIALS RECEIVING / WAREHOUSE           |
-|  - Incoming Wafers                                          |
-|  - Substrates, Leadframes, Mold Compounds, Consumables     |
-+---------------------------+-------------------------------+
-                             |
-                             v
-+-------------------------------------------------------------+
-|             CLEANROOM / PRODUCTION AREA (Class 1000–10000) |
-|                                                             |
-|  [1] Die Preparation          [2] Die Attach & Mount        |
-|  - Wafer sawing              - Pick & place                 |
-|  - Cleaning                  - Die attach (epoxy/paste)     |
-|                                                             |
-|  [3] Wire Bonding / Flip-Chip Bonding                       |
-|  - Ball or wedge bonding     - Flip-chip bumping            |
-|                                                             |
-|  [4] Encapsulation / Molding                                |
-|  - Transfer molding         - Compression molding           |
-|                                                             |
-|  [5] Singulation (if not done earlier)                      |
-|  - Sawing packages from panel or leadframe                  |
-|                                                             |
-|  [6] Final Assembly & Finishing                             |
-|  - Ball attach (BGA)         - Plating / Surface finish     |
-+-------------------------------------------------------------+
-                             |
-                             v
-+-------------------------------------------------------------+
-|                         TEST AREA (ATE)                     |
-|  - Electrical test         - Burn-in test                   |
-|  - Functional test         - Yield analysis                 |
-+-------------------------------------------------------------+
-                             |
-                             v
-+------------------------+      +----------------------------+
-| MARKING & LASER ENGRAVE| ---> | FINAL INSPECTION / QA      |
-+------------------------+      +----------------------------+
-                             |
-                             v
-+------------------------+      +----------------------------+
-| PACKAGING & LABELING   | ---> | SHIPPING / OUTBOUND LOGISTICS |
-+------------------------+      +----------------------------+
+- Admin/Office: Design Review, Data Management, QA/Engineering Lab<br/>
+- Materials receiving/Warehouse: Incoming Wafers; Substrates, Leadframes, Mold Compounds, Consumables<br/>
+- Cleanroom/Production Area: Die Preparation, Die Attach & Mount, Wire Bonding / Flip-Chip Bonding, Encapsulation / Molding, Final Assembly & Finishing<br/>
+- Test area: Electrical test, Burn-in test, Functional test, Yield analysis<br/>
+- Marking/Laser Engrave: Final inspection, QA<br/>
+- Packaging/Labeling: Shippong & outbound logistics<br/>
 
-
-
-
-
-
-
-
+## Wafer pre-preparation: Grinding and Dicing
 
 
 
