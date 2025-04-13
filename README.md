@@ -15,7 +15,9 @@ This repository provides an in-depth understanding into the evolution of packagi
    - [Evolving Package Architectures from Single-chip to Multi-chip modules](#Evolving-Package-Architectures-from-Single-chip-to-Multi-chip-modules)
    - [Interposers Redistribution layers and 3D Packaging Approaches](#Interposers-Redistribution-layers-and-3D-Packaging-Approaches)
    - [Comparative Analysis and Selecting the right Packaging Solution](#Comparative-Analysis-and-Selecting-the-right-Packaging-Solution)
-
+2. [From Wafer to Package: Assembly and Manufacturing Essentials](#From-Wafer-to-Package-Assembly-and-Manufacturing-Essentials)
+   - Setting the Stage - Supply Chain and Facilities
+   - Wafer
 
 
 
@@ -231,4 +233,63 @@ Choosing the right semiconductor packaging depends on multiple factors across pe
 🧪 2. Match with Package Capabilities - needs like low cost, high performance compute, high bandwidth memory, space constraints etc.<br/>
 💡 3. Consider Cost vs. Performance Trade-offs - If cost is the primary driver, leadframe-based packages such as QFN or SOP, or standard BGA options, offer a cost-effective solution. For applications where performance is critical, advanced options like FCBGA, RDL-based packaging, or interposer-enabled designs are more suitable. In scenarios requiring ultra-compact form factors, fan-out wafer-level packaging (WLP) or 3D TSV-based packages provide optimal space efficiency. Lastly, for designs targeting future scalability, such as chiplet architectures or modular systems, 2.5D and 3D packaging approaches are ideal due to their flexibility and high integration capability<br/>
 🔍 4. Evaluate Manufacturing and Supply Chain Constraints - Substrate availability, ensuring compatibility with existing assembly and test processes, strong ecosystem support from suppliers, including OSATs (Outsourced Semiconductor Assembly and Test providers), substrate manufacturers, and foundry packaging services
+
+
+## From Wafer to Package: Assembly and Manufacturing Essentials
+## Setting the Stage - Supply Chain and Facilities
+
+This section explains the semiconductor supply chain and provides a detailed look into a package manufacturing unit (ATMP – Assembly, Testing, Marking, and Packaging).
+
+### 🔄 Review of the Supply Chain
+
+The semiconductor supply chain is a complex, globally distributed network that spans design, manufacturing, assembly, testing, and distribution. Each stage involves highly specialized players and technologies, requiring precise coordination to deliver cutting-edge chips efficiently and reliably.<br/>
+
+![Picture13](https://github.com/user-attachments/assets/e869162e-da82-405f-bc6d-b1097b4dfcef)
+
+🧠 1. Design & IP Development<br/>
+- Input: Product requirements, EDA tools, IP blocks, market specs<br/>
+- Process: Architecture definition, RTL coding, synthesis, APR, verification<br/>
+- Output: GDSII layout file (design tape-out). The GDSII file is sent to the foundry for mask creation and wafer fabrication.<br/>
+- Who: Fabless companies (e.g., AMD, NVIDIA), EDA vendors (Synopsys, Cadence)<br/>
+
+🏭 2. Wafer Fabrication (Foundry)<br/>
+- Input: GDSII layout, silicon wafers, photoresist, gases, chemicals, masks<br/>
+- Process: Photolithography, etching, deposition, ion implantation<br/>
+- Output: Processed wafers with patterned dies<br/>
+- Who: TSMC, Samsung Foundry, Intel, GlobalFoundries<br/>
+
+📦 3. Packaging & Substrate Preparation<br/>
+- Input: Singulated dies, substrate materials (e.g., ABF, BT resin), solder bumps<br/>
+- Process: Die attach, wire bonding or flip-chip, molding, RDL/interposer integration<br/>
+- Output: Packaged IC (e.g., BGA, QFN, FCBGA, 2.5D/3D)<br/>
+- Who: ASE, Amkor, JCET, Shinko, Ibiden<br/>
+
+🧪 4. Assembly & Test (OSAT)<br/>
+- Input: Packaged ICs, test programs, ATE systems<br/>
+- Process: Functional and parametric testing, burn-in, sorting<br/>
+- Output: Qualified ICs, binned by performance. Yield improvement and binning are critical for profitability.<br/>
+- Who: ASE, Powertech, Amkor, UTAC<br/>
+
+📱 5. System Integration & Distribution<br/>
+- Input: Packaged, tested ICs; PCBs; passive components<br/>
+- Process: SMT assembly, system-level integration, validation<br/>
+- Output: Complete electronic systems (e.g., smartphones, servers)<br/>
+- Who: OEMs Original Equipment Manufacturer (Apple, Cisco), ODMs Original Design Manufacturer (Foxconn, Pegatron), EMS Electronics Manufacturing Services (Flex, Jabil)<br/>
+Example<br/>
+➡️ OEM (Apple)<br/>
+➡️ contracts ODM (Quanta) to design hardware<br/>
+➡️ who works with EMS (Foxconn) to mass-produce and assemble the final product.<br/>
+
+### Introduction to a Package Manufacturing Unit (ATMP)
+
+The ATMP process involves four core activities: Assembly, Testing, Marking, and Packaging.
+
+
+
+
+
+
+
+
+
 
