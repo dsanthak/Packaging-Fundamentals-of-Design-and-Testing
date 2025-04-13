@@ -101,15 +101,13 @@ A leadframe is a thin sheet of metal (typically copper or copper alloy) stamped 
      5. Leads: The outer portion of the metal frame extends beyond the molding compound to allow surface mounting or through-hole soldering.<br/>
 
  📦 Common Leadframe-Based Package Types<br/>
-     | Package Type |	Description |
-     | ------------ | ---------- |
-     | DIP (Dual In-line Package) | Rectangular body with two rows of through-hole leads. Used in older devices and through-hole boards. |
-     | SOP (Small Outline Package) | Surface-mount version of DIP with shorter, gull-wing leads. |
-     | SSOP / TSSOP (Shrink/Thin SOP) | More compact versions of SOP for higher pin density. |
-     | QFP (Quad Flat Package) | Four-sided surface-mount package with fine-pitch leads on all sides. |
-     | LQFP (Low-profile QFP) | Thinner version of QFP for compact applications.|
-     | QFN (Quad Flat No-lead) | Exposed pad package without leads; pads are on the bottom for better thermal and electrical performance. |
-     | DFN (Dual Flat No-lead) | Like QFN but with pads only on two sides. Very compact. |
+     | DIP (Dual In-line Package)     | Rectangular body with two rows of through-hole leads. Used in older devices and through-hole boards.     |
+     | SOP (Small Outline Package)    | Surface-mount version of DIP with shorter, gull-wing leads.                                              |
+     | SSOP / TSSOP (Shrink/Thin SOP) | More compact versions of SOP for higher pin density.                                                     |
+     | QFP (Quad Flat Package)        | Four-sided surface-mount package with fine-pitch leads on all sides.                                     |
+     | LQFP (Low-profile QFP)         | Thinner version of QFP for compact applications.                                                         |
+     | QFN (Quad Flat No-lead)        | Exposed pad package without leads; pads are on the bottom for better thermal and electrical performance. |
+     | DFN (Dual Flat No-lead)        | Like QFN but with pads only on two sides. Very compact.                                                  |
 
   ✅ Advantages of Leadframe Packages<br/>
       - Cost-Effective: Simple to manufacture, suitable for high-volume production.<br/>
