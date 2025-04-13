@@ -93,14 +93,21 @@ A leadframe is a thin sheet of metal (typically copper or copper alloy) stamped 
      - Die pad: A central area where the silicon die is mounted.<br/>
      - Leads: Metal fingers extending outward that serve as electrical paths from the die to the external PCB.<br/>
 
- ⚙️ Basic Structure of a Leadframe Package<br/>
+  ⚙️ Basic Structure of a Leadframe Package<br/>
      1. Silicon Die: Placed on the die pad of the leadframe.<br/>
      2. Die Attach: The die is attached to the pad using adhesive or solder.<br/>
      3. Wire Bonds: Gold or copper wires connect the die’s bond pads to the leads of the frame.<br/>
      4. Encapsulation: The assembly is molded in epoxy resin to protect the internal elements.<br/>
      5. Leads: The outer portion of the metal frame extends beyond the molding compound to allow surface mounting or through-hole soldering.<br/>
 
-    
+  📦 Common Leadframe-Based Package Types<br/>
+      DIP (Dual In-line Package)       Rectangular body with two rows of through-hole leads. Used in older devices and through-hole boards. <br/>    
+      SOP (Small Outline Package)     Surface-mount version of DIP with shorter, gull-wing leads.             <br/>                                 
+      SSOP / TSSOP (Shrink/Thin SOP)  More compact versions of SOP for higher pin density.         <br/>                                            
+      QFP (Quad Flat Package)          Four-sided surface-mount package with fine-pitch leads on all sides.    <br/>                                 
+      LQFP (Low-profile QFP)           Thinner version of QFP for compact applications.    <br/>                                                     
+      QFN (Quad Flat No-lead)          Exposed pad package without leads; pads are on the bottom for better thermal and electrical performance. <br/>
+      DFN (Dual Flat No-lead)          Like QFN but with pads only on two sides. Very compact.      <br/>                                            
 
   ✅ Advantages of Leadframe Packages<br/>
       - Cost-Effective: Simple to manufacture, suitable for high-volume production.<br/>
@@ -122,10 +129,4 @@ A leadframe is a thin sheet of metal (typically copper or copper alloy) stamped 
       - Analog/mixed-signal ICs<br/>
       - LED packages<br/>
 
- |  DIP (Dual In-line Package)     |  Rectangular body with two rows of through-hole leads. Used in older devices and through-hole boards.     |
- |  SOP (Small Outline Package)    |  Surface-mount version of DIP with shorter, gull-wing leads.                                              |
-     |  SSOP / TSSOP (Shrink/Thin SOP) |  More compact versions of SOP for higher pin density.                                                     |
-     |  QFP (Quad Flat Package)        |  Four-sided surface-mount package with fine-pitch leads on all sides.                                     |
-     |  LQFP (Low-profile QFP)         |  Thinner version of QFP for compact applications.                                                         |
-     |  QFN (Quad Flat No-lead)        |  Exposed pad package without leads; pads are on the bottom for better thermal and electrical performance. |
-     |  DFN (Dual Flat No-lead)        |  Like QFN but with pads only on two sides. Very compact.                                                  |
+ 
