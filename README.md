@@ -17,7 +17,8 @@ This repository provides an in-depth understanding into the evolution of packagi
    - [Comparative Analysis and Selecting the right Packaging Solution](#Comparative-Analysis-and-Selecting-the-right-Packaging-Solution)
 2. [From Wafer to Package: Assembly and Manufacturing Essentials](#From-Wafer-to-Package-Assembly-and-Manufacturing-Essentials)
    - Setting the Stage - Supply Chain and Facilities
-   - Wafer pre-preparation: Grinding and Dicing
+   - Wafer pre-preparation - Grinding and Dicing
+   - Wire Bond Packaging - Die attach to Molding
 
 
 
@@ -306,7 +307,27 @@ Layout of an ATMP unit:<br/>
 - Marking/Laser Engrave: Final inspection, QA<br/>
 - Packaging/Labeling: Shippong & outbound logistics<br/>
 
-## Wafer pre-preparation: Grinding and Dicing
+## Wafer pre-preparation - Grinding and Dicing
+
+This section outlines the sequence of steps involved in the wafer preparation process inside an ISO Class 7 cleanroom of an ATMP (Assembly, Testing, Marking, and Packaging) facility. Cleanrooms are essential for maintaining strict control over dust, particles, temperature, humidity, and electrostatic discharge, especially during sensitive semiconductor assembly steps.
+
+### 🧼 Activities Inside the Cleanroom (Class 1000–10000)
+
+![Picture15](https://github.com/user-attachments/assets/aa527aec-c026-482c-8eda-483aa2908406)
+
+Wafers enter the cleanroom in protective carriers to avoid contamination. Before packaging, the wafers—typically 12-inch and around 700–800 microns thick—must be thinned since only the front side contains circuitry, while the backside is structural. The process begins with wafer inspection and testing, followed by front-side protection using lamination. The wafer is then flipped and back grinding is performed to reduce thickness, which introduces mechanical stress and must be carefully managed to avoid breakage. After grinding, a tape frame is applied to the wafer, and dicing is done using either blade or laser methods (laser preferred). The individual chips are then ready for packaging.
+
+[A Look Inside - Amkor Manufacturing](https://youtu.be/hR5orrmpoeE?si=HSSnPypsR-nuPQGj)
+
+## Wire Bond Packaging - Die attach to Molding
+
+Wire bonding is a method used to create electrical connections between the silicon die and the package leads or substrate using fine metal wires. It is a mature, cost-effective, and reliable technology, widely used in a variety of packages including QFN, SOP, and even some BGA formats.
+
+
+
+
+
+
 
 
 
