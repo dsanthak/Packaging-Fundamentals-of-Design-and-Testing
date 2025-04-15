@@ -16,9 +16,11 @@ This repository provides an in-depth understanding into the evolution of packagi
    - [Interposers Redistribution layers and 3D Packaging Approaches](#Interposers-Redistribution-layers-and-3D-Packaging-Approaches)
    - [Comparative Analysis and Selecting the right Packaging Solution](#Comparative-Analysis-and-Selecting-the-right-Packaging-Solution)
 2. [From Wafer to Package: Assembly and Manufacturing Essentials](#From-Wafer-to-Package-Assembly-and-Manufacturing-Essentials)
-   - Setting the Stage - Supply Chain and Facilities
-   - Wafer pre-preparation - Grinding and Dicing
-   - Wire Bond Packaging - Die attach to Molding
+   - [Setting the Stage - Supply Chain and Facilities](#Setting-the-Stage-Supply-Chain-and-Facilities)
+   - [Wafer pre-preparation - Grinding and Dicing](#Wafer-pre-preparation-Grinding-and-Dicing)
+   - [Wire Bond Packaging - Die attach to Molding](#Wire-Bond-Packaging-Die-attach-to-Molding)
+   - [Flip Chip Assembly - Bump Formation and Underfill](#Flip-Chip-Assembly-Bump-Formation-and-Underfill)
+   - [Wafer Level Packaging And Conclusion](#Wafer-Level-Packaging-And-Conclusion)
 
 
 
@@ -325,6 +327,7 @@ Wire bonding is a method used to create electrical connections between the silic
 
 [HB100 Automatic Wire Bonder - Bond Modes](https://youtu.be/3YkGrhvrWxA?si=wZ3nww72NH6X6e4v)
 
+
 ![Picture16](https://github.com/user-attachments/assets/5885510f-217b-44c0-abb4-c236f70aa159)
 
 📦 Wire Bond Packaging Process – Step-by-Step<br/>
@@ -351,7 +354,36 @@ Wire bonding is a method used to create electrical connections between the silic
    - This step cuts out the individual packages from the molded array<br/>
 
 ✅ Notes:<br/>
+
 Wire bonding is a cost-effective and widely used packaging technique. It’s preferred in many applications due to its simplicity, flexibility, and low cost.
+
+## Flip Chip Assembly - Bump Formation and Underfill
+
+Flip Chip packaging is an advanced method of connecting the die to the substrate face-down, using solder bumps placed directly on the die’s I/O pads. Unlike wire bonding, which uses wires to make connections from the top of the die, flip chip offers shorter, more efficient interconnects, enabling higher performance and smaller form factors.
+
+![Picture17](https://github.com/user-attachments/assets/6012cc4a-9ac4-460f-8efe-ec4de40ae91e)
+
+🔧 Flip Chip Packaging Process – Step-by-Step<br/>
+1. Bump Formation<br/>
+   - Solder bumps (e.g., SnAgCu) or microbumps are formed on the die pads<br/>
+   - Techniques include electroplating, solder paste printing, or stud bumping<br/>
+2. Wafer-Level Testing & Dicing<br/>
+   - The bumped wafer is tested and then diced into individual dies<br/>
+3. Die Placement (Flip)<br/>
+   - The die is flipped face-down and aligned so the bumps face the substrate<br/>
+   - It is placed directly on metal pads of the substrate or interposer<br/>
+4. Reflow Soldering<br/>
+    - The entire assembly is heated in a reflow oven<br/>
+    - Solder bumps melt and solidify to form strong electrical and mechanical joints<br/>
+5. Underfill Application<br/>
+    - An underfill epoxy is dispensed between the die and substrate to enhance reliability<br/>
+    - It prevents mechanical stress and improves thermal cycling performance<br/>
+6. Molding / Encapsulation (if needed)<br/>
+    - Some flip-chip packages are molded, especially for consumer and mobile applications<br/>
+7. Final Testing and Singulation<br/>
+    - The completed packages undergo electrical testing, X-ray inspection, and are then singulated if processed in panel format<br/>
+
+## Wafer Level Packaging And Conclusion
 
 
 
