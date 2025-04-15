@@ -323,11 +323,35 @@ Wafers enter the cleanroom in protective carriers to avoid contamination. Before
 
 Wire bonding is a method used to create electrical connections between the silicon die and the package leads or substrate using fine metal wires. It is a mature, cost-effective, and reliable technology, widely used in a variety of packages including QFN, SOP, and even some BGA formats.
 
+[HB100 Automatic Wire Bonder - Bond Modes](https://youtu.be/3YkGrhvrWxA?si=wZ3nww72NH6X6e4v)
 
+![Picture16](https://github.com/user-attachments/assets/5885510f-217b-44c0-abb4-c236f70aa159)
 
+📦 Wire Bond Packaging Process – Step-by-Step<br/>
+1. Start with a Diced Wafer<br/>
+   - The wafer has already been cut into individual dies (chips)
+2. Die Selection & Placement (Die Attach)<br/>
+   - Select a good die from the wafer<br/>
+   - Place the die onto a substrate (either laminate-based or leadframe)<br/>
+3. Apply Die Attach Film or Epoxy<br/>
+   - Dispense adhesive (typically epoxy, acting like glue) onto the substrate<br/>
+   - The die is then placed onto the adhesive<br/>
+4. Curing<br/>
+   - Cure the epoxy to secure the die and relieve mechanical stress<br/>
+   - Curing is done using thermal ovens or UV light<br/>
+5. Wire Bonding<br/>
+   - Create electrical connections between the die and the substrate using fine metal wires (gold, copper, or aluminum)<br/>
+   - Wire bonding acts like "flyovers" to bridge the die pads to package terminals<br/>
+6. Molding / Encapsulation<br/>
+   - Encapsulate the die and wires with a plastic mold compound for mechanical protection<br/>
+7. Marking<br/>
+   - Mark the package with identifying information (e.g., part number, lot code) for traceability<br/>
+8. Singulation (Dicing)<br/>
+   - The final packaged units, typically processed in panels or arrays, are separated (singulated) using a dicing blade<br/>
+   - This step cuts out the individual packages from the molded array<br/>
 
-
-
+✅ Notes:<br/>
+Wire bonding is a cost-effective and widely used packaging technique. It’s preferred in many applications due to its simplicity, flexibility, and low cost.
 
 
 
