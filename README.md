@@ -21,6 +21,7 @@ This repository provides an in-depth understanding into the evolution of packagi
    - [Wire Bond Packaging: Die attach to Molding](#Wire-Bond-Packaging-Die-attach-to-Molding)
    - [Flip Chip Assembly: Bump Formation and Underfill](#Flip-Chip-Assembly-Bump-Formation-and-Underfill)
    - [Wafer Level Packaging And Conclusion](#Wafer-Level-Packaging-And-Conclusion)
+3. [Labs: Thermal Simulation of Semiconductor Packages with ANSYS](#Labs-Thermal-Simulation-of-Semiconductor-Packages-with-ANSYS)
 
 
 
@@ -384,6 +385,43 @@ Flip Chip packaging is an advanced method of connecting the die to the substrate
     - The completed packages undergo electrical testing, X-ray inspection, and are then singulated if processed in panel format<br/>
 
 ## Wafer Level Packaging And Conclusion
+
+Wafer-Level Packaging is a technique where the entire packaging process is done at the wafer level, before dicing. Unlike traditional methods that package individual dies after dicing, WLP processes all chips while still on the wafer, resulting in smaller size, lower cost, and higher performance.
+
+There are two main types:<br/>
+- Fan-In WLP – Interconnects remain within the die footprint<br/>
+- Fan-Out WLP (FOWLP) – Interconnects extend beyond the die, enabling more I/Os<br/>
+
+![Picture18](https://github.com/user-attachments/assets/8ed85463-cdef-444f-be68-da04d866f91b)
+
+🔧 Wafer-Level Packaging Process – Step-by-Step<br/>
+📦 Fan-Out Wafer-Level Packaging (FOWLP) – Key Features & Process Highlights<br/>
+1. Flip Chip Orientation<br/>
+   - The die is placed face-down (flipped) and embedded in EMC (Epoxy Molding Compound)<br/>
+2. No Traditional Package Substrate<br/>
+   - Unlike conventional flip chip, no laminate substrate is used<br/>
+3. Redistribution Layer (RDL)<br/>
+   - An interconnecting metal layer (RDL) is built over the molded wafer<br/>
+   - It reroutes the die’s I/O to external solder balls<br/>
+4. Routing on RDL Instead of Laminate<br/>
+   - In flip chip with laminate, routing is done via laminate vias<br/>
+   - In FOWLP, all routing is handled by the RDL, adding design complexity<br/>
+5. Size Reduction Benefit<br/>
+   - Despite the complexity, the absence of a substrate allows for a much smaller package footprint<br/>
+6. Reconstitution Process<br/>
+   - Instead of attaching the die to a substrate, multiple dies are placed on a temporary carrier, close together<br/>
+   - The entire array is molded to form a reconstituted wafer<br/>
+7. Post-Mold RDL Formation<br/>
+   - After molding, RDL layers are fabricated on the flat surface to complete electrical connections<br/>
+   - Initial dielectric and metal layers are deposited on the reconstituted wafer<br/>
+   - Multiple RDL layers are patterned for interconnection routing<br/>
+   - Solder balls are mounted on the final RDL pads to enable surface mounting<br/>
+8. Carrier Removal & Dicing<br/>
+   - The carrier is removed, and the molded wafer is diced into packages<br/>
+
+
+## Labs: Thermal Simulation of Semiconductor Packages with ANSYS
+## 
 
 
 
