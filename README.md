@@ -16,7 +16,7 @@ This repository provides an in-depth understanding into the evolution of packagi
    - [Interposers Redistribution layers and 3D Packaging Approaches](#Interposers-Redistribution-layers-and-3D-Packaging-Approaches)
    - [Comparative Analysis and Selecting the right Packaging Solution](#Comparative-Analysis-and-Selecting-the-right-Packaging-Solution)
 2. [From Wafer to Package: Assembly and Manufacturing Essentials](#From-Wafer-to-Package-Assembly-and-Manufacturing-Essentials)
-   - [Setting the Stage - Supply Chain and Facilities](#Setting-the-Stage-Supply-Chain-and-Facilities)
+   - [Setting the Stage: Supply Chain and Facilities](#Setting-the-Stage-Supply-Chain-and-Facilities)
    - [Wafer pre-preparation - Grinding and Dicing](#Wafer-pre-preparation-Grinding-and-Dicing)
    - [Wire Bond Packaging - Die attach to Molding](#Wire-Bond-Packaging-Die-attach-to-Molding)
    - [Flip Chip Assembly - Bump Formation and Underfill](#Flip-Chip-Assembly-Bump-Formation-and-Underfill)
@@ -239,7 +239,7 @@ Choosing the right semiconductor packaging depends on multiple factors across pe
 
 
 ## From Wafer to Package: Assembly and Manufacturing Essentials
-## Setting the Stage - Supply Chain and Facilities
+## Setting the Stage: Supply Chain and Facilities
 
 This section explains the semiconductor supply chain and provides a detailed look into a package manufacturing unit (ATMP – Assembly, Testing, Marking, and Packaging).
 
