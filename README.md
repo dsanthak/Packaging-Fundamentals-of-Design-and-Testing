@@ -17,9 +17,9 @@ This repository provides an in-depth understanding into the evolution of packagi
    - [Comparative Analysis and Selecting the right Packaging Solution](#Comparative-Analysis-and-Selecting-the-right-Packaging-Solution)
 2. [From Wafer to Package: Assembly and Manufacturing Essentials](#From-Wafer-to-Package-Assembly-and-Manufacturing-Essentials)
    - [Setting the Stage: Supply Chain and Facilities](#Setting-the-Stage-Supply-Chain-and-Facilities)
-   - [Wafer pre-preparation - Grinding and Dicing](#Wafer-pre-preparation-Grinding-and-Dicing)
-   - [Wire Bond Packaging - Die attach to Molding](#Wire-Bond-Packaging-Die-attach-to-Molding)
-   - [Flip Chip Assembly - Bump Formation and Underfill](#Flip-Chip-Assembly-Bump-Formation-and-Underfill)
+   - [Wafer pre-preparation: Grinding and Dicing](#Wafer-pre-preparation-Grinding-and-Dicing)
+   - [Wire Bond Packaging: Die attach to Molding](#Wire-Bond-Packaging-Die-attach-to-Molding)
+   - [Flip Chip Assembly: Bump Formation and Underfill](#Flip-Chip-Assembly-Bump-Formation-and-Underfill)
    - [Wafer Level Packaging And Conclusion](#Wafer-Level-Packaging-And-Conclusion)
 
 
@@ -309,7 +309,7 @@ Layout of an ATMP unit:<br/>
 - Marking/Laser Engrave: Final inspection, QA<br/>
 - Packaging/Labeling: Shippong & outbound logistics<br/>
 
-## Wafer pre-preparation - Grinding and Dicing
+## Wafer pre-preparation: Grinding and Dicing
 
 This section outlines the sequence of steps involved in the wafer preparation process inside an ISO Class 7 cleanroom of an ATMP (Assembly, Testing, Marking, and Packaging) facility. Cleanrooms are essential for maintaining strict control over dust, particles, temperature, humidity, and electrostatic discharge, especially during sensitive semiconductor assembly steps.
 
@@ -321,7 +321,7 @@ Wafers enter the cleanroom in protective carriers to avoid contamination. Before
 
 [A Look Inside - Amkor Manufacturing](https://youtu.be/hR5orrmpoeE?si=HSSnPypsR-nuPQGj)
 
-## Wire Bond Packaging - Die attach to Molding
+## Wire Bond Packaging: Die attach to Molding
 
 Wire bonding is a method used to create electrical connections between the silicon die and the package leads or substrate using fine metal wires. It is a mature, cost-effective, and reliable technology, widely used in a variety of packages including QFN, SOP, and even some BGA formats.
 
@@ -357,7 +357,7 @@ Wire bonding is a method used to create electrical connections between the silic
 
 Wire bonding is a cost-effective and widely used packaging technique. It’s preferred in many applications due to its simplicity, flexibility, and low cost.
 
-## Flip Chip Assembly - Bump Formation and Underfill
+## Flip Chip Assembly: Bump Formation and Underfill
 
 Flip Chip packaging is an advanced method of connecting the die to the substrate face-down, using solder bumps placed directly on the die’s I/O pads. Unlike wire bonding, which uses wires to make connections from the top of the die, flip chip offers shorter, more efficient interconnects, enabling higher performance and smaller form factors.
 
