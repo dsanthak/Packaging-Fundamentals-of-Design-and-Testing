@@ -22,10 +22,11 @@ This repository provides an in-depth understanding into the evolution of packagi
    - [Flip Chip Assembly: Bump Formation and Underfill](#Flip-Chip-Assembly-Bump-Formation-and-Underfill)
    - [Wafer Level Packaging And Conclusion](#Wafer-Level-Packaging-And-Conclusion)
 3. [Labs: Thermal Simulation of Semiconductor Packages with ANSYS](#Labs-Thermal-Simulation-of-Semiconductor-Packages-with-ANSYS)
-   - Introduction And Getting Started With ANSYS Electronics Desktop
-   - Setting Up A Flip-Chip BGA Package
-   - Material Definitions And Thermal Power Sources
-   - Meshing And Running The Thermal Analysis
+   - [Introduction And Getting Started With ANSYS Electronics Desktop](#Introduction-And-Getting-Started-With-ANSYS-Electronics-Desktop)
+   - [Setting Up A Flip-Chip BGA Package](#Setting-Up-A-Flip-Chip-BGA-Package)
+   - [Material Definitions And Thermal Power Sources](#Material-Definitions-And-Thermal-Power-Sources)
+   - [Meshing And Running The Thermal Analysis](#Meshing-And-Running-The-Thermal-Analysis)
+   - [Summary](#Summary)
 
 
 
@@ -511,5 +512,21 @@ Monitor temperatures of die, underfill and substrate.<br/>
 
 ## Meshing And Running The Thermal Analysis
 
+Mesh visualization shows the number of elements generated. Quality can also be analysed. For accurate simulation, mesh quality is very important.<br/>
+
+![Picture33](https://github.com/user-attachments/assets/13e0e101-cab0-48f2-89fa-ff0aca4a5fe8)
 
 
+![Picture34](https://github.com/user-attachments/assets/e1190976-394b-4ed7-aa82-b0007e545264)
+
+
+Analysis:<br/>
+
+![Picture35](https://github.com/user-attachments/assets/2342b4bf-2859-4cda-b327-c4a0e782e7d8)
+
+![Picture36](https://github.com/user-attachments/assets/35017412-eb65-4101-bd7a-5eb41059ac1a)
+
+
+Other packaging models can also be analysed in a similar way.
+
+## Summary
