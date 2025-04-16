@@ -539,7 +539,8 @@ Below are the steps for setting up an Ansys Icepak and to perform a thermal anal
 🛠️ Step 1: Insert Icepak Design<br/>
    - Open Ansys Workbench.<br/>
    - Navigate to Project -> Insert Icepak Design.<br/>
-   - Click the Icepak tab in the top toolbar to launch the Icepak layout environment.<br/>
+   - Click the Icepak tab in the top toolbar to launch the Icepak layout environment.
+
 📦 Step 2: Create a Flipchip BGA Package<br/>
    - Go to Icepak -> Toolkit -> Geometry -> Packages -> Flipchip_BGA.<br/>
    - A configuration window will appear.<br/>
