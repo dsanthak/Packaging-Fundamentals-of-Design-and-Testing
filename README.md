@@ -551,39 +551,47 @@ Below are the steps for setting up an Ansys Icepak and to perform a thermal anal
       Model Type: Detailed<br/>
       Symmetry: Full<br/>
    - Click OK to generate the 3D model.<br/>
-   - The model will appear in the working space.<br/>
+   - The model will appear in the working space.
+
 📂 Step 3: Explore the Model Structure<br/>
    - In the Model Tree, expand each section to view:<br/>
       Substrate<br/>
       Die<br/>
-      Underfill, etc.<br/>
+      Underfill, etc.
+
 ♨️ Step 4: Assign Thermal Power<br/>
    - Navigate to Project Manager -> Thermal.<br/>
-   - Enter the Power value (e.g., 1 W) and click OK.<br/>
+   - Enter the Power value (e.g., 1 W) and click OK.
+
 🌡️ Step 5: Assign Thermal Sources<br/>
    - In Solids, select Flipchip-BGA1_substrate.<br/>
    - Right-click -> Assign Thermal -> Source.<br/>
    - In the dialog box, set Thermal Condition to Ambient Temperature.<br/>
    - Click OK.<br/>
-   - Delete any extra element like Flipchip_BGA_trace1 under the Thermal node.<br/>
+   - Delete any extra element like Flipchip_BGA_trace1 under the Thermal node.
+
 📈 Step 6: Assign Temperature Monitors<br/>
    - In Solids, select Substrate -> Assign Monitor -> Point.<br/>
    - Tick Temperature -> Click OK.<br/>
-   - Repeat the same process for the Die and Underfill components.<br/>
+   - Repeat the same process for the Die and Underfill components.
+
 🧩 Step 7: Generate Mesh<br/>
    - Go to the Mesh tab.<br/>
    - Click Simulation -> Generate Mesh.<br/>
-   - Save the file when prompted -> Click OK.<br/>
+   - Save the file when prompted -> Click OK.
+
 🔍 Step 8: Inspect Mesh Quality<br/>
    - In Mesh Visualization, click Quality.<br/>
    - Check parameters such as:<br/>
       Face Alignment<br/>
       Skewness<br/>
-      Volume<br/>
+      Volume
+      
 ✅ Step 9: Validate the Setup<br/>
    - Click Validate from the top menu bar.<br/>
    - Ensure all validation checks return green ticks.<br/>
-   - This confirms the setup is ready for simulation.<br/>
+   - This confirms the setup is ready for simulation.
+
 📊 Step 10: Run Simulation and Plot Temperature Field<br/>
    - Click Analyze All from the top bar.<br/>
    - Select the Flipchip BGA package.<br/>
