@@ -22,7 +22,10 @@ This repository provides an in-depth understanding into the evolution of packagi
    - [Flip Chip Assembly: Bump Formation and Underfill](#Flip-Chip-Assembly-Bump-Formation-and-Underfill)
    - [Wafer Level Packaging And Conclusion](#Wafer-Level-Packaging-And-Conclusion)
 3. [Labs: Thermal Simulation of Semiconductor Packages with ANSYS](#Labs-Thermal-Simulation-of-Semiconductor-Packages-with-ANSYS)
-
+   - Introduction And Getting Started With ANSYS Electronics Desktop
+   - Setting Up A Flip-Chip BGA Package
+   - Material Definitions And Thermal Power Sources
+   - Meshing And Running The Thermal Analysis
 
 
 
@@ -421,8 +424,92 @@ There are two main types:<br/>
 
 
 ## Labs: Thermal Simulation of Semiconductor Packages with ANSYS
-## 
+## Introduction And Getting Started With ANSYS Electronics Desktop
 
+ANSYS Electronics Desktop (AEDT) is a unified platform that integrates multiple electromagnetic, circuit, and system simulation tools within a single GUI. It’s widely used for designing and analyzing high-speed electronics, including PCBs, IC packages, antennas, RF components, and power electronics.<br/>
+
+🛠️ Key Features of ANSYS Electronics Desktop<br/>
+1. Unified Environment<br/>
+   - Combines multiple solvers: HFSS, Maxwell, Q3D Extractor, Icepak, SIwave, and Circuit Designer.<br/>
+   - Seamless project management with shared geometry, material libraries, and workflow automation.<br/>
+2. Simulation Capabilities<br/>
+   - HFSS – Full-wave 3D EM simulation (antennas, packages, RFICs, connectors)<br/>
+   - Maxwell – Low-frequency EM simulation (motors, transformers, inductors)<br/>
+   - Q3D Extractor – Parasitic extraction of RLC values for interconnects<br/>
+   - Icepak – Thermal and airflow simulation<br/>
+   - SIwave – Signal and power integrity analysis for boards and packages<br/>
+   - Circuit Designer – Circuit-level transient and harmonic analysis<br/>
+3. Multiphysics Integration<br/>
+   - Electro-thermal, electro-mechanical, and EM-circuit co-simulation supported<br/>
+   - Enables coupling between solvers for accurate, system-level predictions<br/>
+4. 3D Layout and ECAD Integration<br/>
+    - Direct import from ECAD tools (e.g., Cadence, Mentor, Altium)<br/>
+    - Full support for 3D layout-driven designs including stacked-die, flip chip, BGA, FOWLP<br/>
+5. High-Performance Computing (HPC)<br/>
+   - Supports distributed, multi-threaded simulations for faster turnaround<br/>
+   - Batch simulation, parameter sweeps, optimization loops<br/>
+6. Automation and Scripting<br/>
+   = Built-in IronPython scripting support for custom workflows<br/>
+   Ansys ACT extensions to build custom apps and toolkits<br/>
+
+The tool used here is **Icepak** which is used to do thermal analysis of packages.<br/>
+
+The idea is to analyse the components or settings of a package. So we are importing an already built-in package available in ANSYS.<br/>
+
+![Picture19](https://github.com/user-attachments/assets/d5b03e60-3d4f-461c-8f8c-7933e0a85809)
+
+## Setting Up A Flip-Chip BGA Package
+
+The package has a particular dimension. We are taking the default values for simulation.<br/>
+
+![Picture20](https://github.com/user-attachments/assets/6ff8719f-bf37-49f6-8ef3-b7fcdfe23c1b)
+
+The dimensions of the die is nearly half of that of the package dimensions as seen below.<br/>
+
+![Picture21](https://github.com/user-attachments/assets/aec96d19-c746-4e80-9c89-0cd3051738bb)
+
+
+![Picture22](https://github.com/user-attachments/assets/60d1dd2d-b43b-4c35-8b05-e0c0f6eb48a3)
+
+
+![Picture23](https://github.com/user-attachments/assets/5da1e515-0537-4bd9-bbf3-aa56323f05a5)
+
+We are going to create the model using default dimensions. The model is going to be created as below.<br/>
+
+![Picture24](https://github.com/user-attachments/assets/9b146f9b-4f27-42b7-8116-bc44523f5a2a)
+
+
+![Picture25](https://github.com/user-attachments/assets/247a602e-920a-49b6-b65d-89f9d47963c1)
+
+
+![Picture26](https://github.com/user-attachments/assets/6ed1bcff-80cf-4572-9ec6-eedf473e2402)
+
+
+![Picture27](https://github.com/user-attachments/assets/0bc5d1ab-f41c-4ecb-8f5d-4c56c88c672e)
+
+
+![Picture28](https://github.com/user-attachments/assets/2456ca8e-5e67-4c51-b3a4-836c85ccf940)
+
+
+![Picture29](https://github.com/user-attachments/assets/b917d5da-6514-4930-ba96-69df83461fdf)
+
+
+## Material Definitions And Thermal Power Sources
+
+Thermal condition on the die source:<br/>
+
+![Picture30](https://github.com/user-attachments/assets/546c6fc5-8739-48ec-9a0c-776c4fdb681c)
+
+Thermal condition on the substrate:<br/>
+
+![Picture31](https://github.com/user-attachments/assets/7f0030eb-b29e-4abb-b831-8301b896c340)
+
+Monitor temperatures of die, underfill and substrate.<br/>
+
+![Picture32](https://github.com/user-attachments/assets/af2c4033-6cf4-462b-a8ab-6b5334f897ce)
+
+
+## Meshing And Running The Thermal Analysis
 
 
 
