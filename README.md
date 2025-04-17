@@ -679,7 +679,7 @@ Burn-in testing is a reliability screening process where semiconductor devices a
 ❌ Less common in:<br/>
    - Consumer electronics (phones, laptops) due to cost and time constraints<br/>
    
-<img width="608" alt="Picture40" src="https://github.com/user-attachments/assets/5d911e24-c5f9-4519-808c-0b027d61fde9" />
+<img width="608" alt="Picture40" src="https://github.com/user-attachments/assets/5d911e24-c5f9-4519-808c-0b027d61fde9" /> <br/>
 
 
 ✅ Final Test (FT) – Semiconductor Testing After Packaging<br/>
@@ -702,7 +702,7 @@ Test flow:<br/>
 5. Marking and Packing<br/>
    - Passed devices are laser-marked, packed in trays or reels, and sent for shipment.<br/>
 
-<img width="602" alt="Picture41" src="https://github.com/user-attachments/assets/faadeb07-7351-4cdc-b865-2915fc15402d" />
+<img width="602" alt="Picture41" src="https://github.com/user-attachments/assets/faadeb07-7351-4cdc-b865-2915fc15402d" /> <br/>
 
 🤖 Automated Test Equipment (ATE) – Semiconductor Device Testing<br/>
 ATE (Automated Test Equipment) refers to a computer-controlled system used to test semiconductor devices — both before (wafer level) and after packaging — to ensure they meet required electrical and functional specifications. ATE systems are the heart of functional and parametric testing in both wafer sort and final test stages.<br/>
@@ -720,7 +720,7 @@ Equipment Examples:<br/>
    - COBOT (Collaborative Robot)<br/>
    - Handler Units<br/>
 
-<img width="610" alt="Picture42" src="https://github.com/user-attachments/assets/e1549227-4f0a-4381-a298-62ea2458a3ab" />
+<img width="610" alt="Picture42" src="https://github.com/user-attachments/assets/e1549227-4f0a-4381-a298-62ea2458a3ab" /> <br/>
 
 
 ## Package Design and Modeling: Building a Semiconductor Package from Scratch
