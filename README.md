@@ -28,9 +28,9 @@ This repository provides an in-depth understanding into the evolution of packagi
    - [Meshing And Running The Thermal Analysis](#Meshing-And-Running-The-Thermal-Analysis)
    - [Summary](#Summary)
 4. [Ensuring Package Reliability: Testing and Performance Validation](#Ensuring-Package-Reliability-Testing-and-Performance-Validation)
-   - Introduction to Package Testing and Electrical Functionality Checks
-   - Reliability and Performance Testing of Semiconductor Packages
-5. Package Design and Modeling: Building a Semiconductor Package from Scratch
+   - [Introduction to Package Testing and Electrical Functionality Checks](#Introduction-to-Package-Testing-and-Electrical-Functionality-Checks)
+   - [Reliability and Performance Testing of Semiconductor Packages](#Reliability-and-Performance-Testing-of-Semiconductor-Packages)
+5. [Package Design and Modeling: Building a Semiconductor Package from Scratch](#Package-Design-and-Modeling-Building-a-Semiconductor-Package-from-Scratch)
 
 
 ## Packaging Evolution: From Basics to 3D Integration
@@ -680,4 +680,52 @@ Burn-in testing is a reliability screening process where semiconductor devices a
    - Consumer electronics (phones, laptops) due to cost and time constraints<br/>
    
 <img width="608" alt="Picture40" src="https://github.com/user-attachments/assets/5d911e24-c5f9-4519-808c-0b027d61fde9" />
+
+
+✅ Final Test (FT) – Semiconductor Testing After Packaging<br/>
+Final Test is the last major electrical test phase after the semiconductor die has been packaged. It verifies that the packaged device meets all functional, parametric, and performance specifications before it is shipped to customers. It is typically performed by OSATs (Outsourced Semiconductor Assembly and Test providers) or in-house test facilities.<br/>
+
+Test flow:<br/>
+1. Device Loading<br/>
+   - Packaged ICs are loaded into automated test handlers.<br/>
+   - Handlers place each device into a test socket.<br/>
+2. ATE Interface<br/>
+   - Devices are connected to ATE (Automated Test Equipment) which applies: Voltage/current, Digital patterns, Analog/RF stimuli (if applicable)<br/>
+3. Test Execution<br/>
+   - Tests include:<br/>
+      DC tests – leakage current, voltage thresholds<br/>
+      AC tests – timing, propagation delay, clock performance<br/>
+      Functional tests – logic operations, memory read/write<br/>
+      Parametric tests – power consumption, I/O voltage levels<br/>
+4. Binning<br/>
+   - Devices are classified (binned) based on performance: Speed grade, Power grade, Pass/fail<br/>
+5. Marking and Packing<br/>
+   - Passed devices are laser-marked, packed in trays or reels, and sent for shipment.<br/>
+
+<img width="602" alt="Picture41" src="https://github.com/user-attachments/assets/faadeb07-7351-4cdc-b865-2915fc15402d" />
+
+🤖 Automated Test Equipment (ATE) – Semiconductor Device Testing<br/>
+ATE (Automated Test Equipment) refers to a computer-controlled system used to test semiconductor devices — both before (wafer level) and after packaging — to ensure they meet required electrical and functional specifications. ATE systems are the heart of functional and parametric testing in both wafer sort and final test stages.<br/>
+
+Categories of ATE Tests:<br/>
+   - Parametric Tests: Measures current/voltage to check if circuits operate within limits.<br/>
+   - Functional Tests: Validates if the IC performs correctly under normal conditions.<br/>
+   - Speed Tests: Measures processing speed; parts are sorted accordingly.<br/>
+Key Performance Indicators:<br/>
+   - Yield<br/>
+   - Testing Time<br/>
+   - Test Coverage<br/>
+Equipment Examples:<br/>
+   - In-Circuit Tester (ICT)<br/>
+   - COBOT (Collaborative Robot)<br/>
+   - Handler Units<br/>
+
+<img width="610" alt="Picture42" src="https://github.com/user-attachments/assets/e1549227-4f0a-4381-a298-62ea2458a3ab" />
+
+
+## Package Design and Modeling: Building a Semiconductor Package from Scratch
+
+
+
+
 
