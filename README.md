@@ -28,7 +28,9 @@ This repository provides an in-depth understanding into the evolution of packagi
    - [Meshing And Running The Thermal Analysis](#Meshing-And-Running-The-Thermal-Analysis)
    - [Summary](#Summary)
 4. [Ensuring Package Reliability: Testing and Performance Validation](#Ensuring-Package-Reliability-Testing-and-Performance-Validation)
-
+   - Introduction to Package Testing and Electrical Functionality Checks
+   - Reliability and Performance Testing of Semiconductor Packages
+5. Package Design and Modeling: Building a Semiconductor Package from Scratch
 
 
 ## Packaging Evolution: From Basics to 3D Integration
@@ -608,25 +610,74 @@ A thermal analysis of the Flipchip BGA package is successfully completed for a p
 
 
 ## Ensuring Package Reliability: Testing and Performance Validation
+## Introduction to Package Testing and Electrical Functionality Checks
 
+### Testing at Different Stages
 
+![Picture37](https://github.com/user-attachments/assets/2dafc692-c9d1-494c-a8a8-3a7878e7cd87)
 
+Testing is performed at multiple stages in the semiconductor lifecycle to ensure functionality, yield, and reliability — from the wafer level to final product delivery. Testing is conducted at both the Foundry and OSAT (Outsourced Semiconductor Assembly and Test) levels.<br/>
 
+🏭 Foundry Testing Stages<br/>
+1. Front-End Manufacturing<br/>
+   - Involves wafer fabrication and creation of integrated circuits on silicon wafers.<br/>
+   - Process development ensures quality control and high-yield production.<br/>
+2. Wafer Probe Test<br/>
+   - Use a probe station and ATE (Automated Test Equipment).<br/>
+   - Each die is tested by contacting the pads/bump sites using a probe card.<br/>
 
+🧪 OSAT Testing Stage<br/>
+1. Package Manufacturing<br/>
+   - Functional dies are packaged using techniques like:<br/>
+      Die bonding<br/>
+      Wire or flip-chip bonding<br/>
+      Encapsulation<br/>
+2. Package Testing<br/>
+   - Conducted in ISO Class 6/7 cleanroom zones.<br/>
+   - Testing includes:<br/>
+      AOST (Assembly Open and Short Test): Quick check for opens/shorts in packages.<br/>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+      ![Picture39](https://github.com/user-attachments/assets/52ed0078-c475-4975-9e7b-96af252f723b)
    
+      Burn-in: Applies voltage and temperature stress to catch early failures. Devices are exposed to high temperature and voltage to accelerate aging.<br/>
+      Final Test: Functional and parametric testing across temperature ranges. Post-Packaging Functional Test performed using Automated Test Equipment (ATE). Full chip functionality, I/O operation and signal timing, Power consumption and leakage are all tested.<br/>
+
+      ![Picture38](https://github.com/user-attachments/assets/6a26b4fb-9d2f-4c7b-b87b-1a98b8d4cb42)
+
+3. System-Level Test (SLT)<br/>
+   - Performed in a real or emulated end-user environment<br/>
+   - Example: Testing an SoC inside a phone board simulation<br/>
+   - Checks interactions with memory, sensors, I/O, etc.<br/>
+   - Purpose: Capture failures that ATE may miss (e.g., timing marginalities, real-world power issues)<br/>
+
+## Reliability and Performance Testing of Semiconductor Packages
+
+### Burn-in, Final Test, and ATE Overview
+This section provides an overview of various stages involved in the testing of integrated circuits (ICs), focusing on Burn-in Testing, Final Testing, and the use of Automatic Test Equipment (ATE).<br/>
+
+🔥 Burn-In Test<br/>
+Burn-in testing is a reliability screening process where semiconductor devices are exposed to elevated temperatures, voltages, and operating conditions for an extended period to accelerate aging and failure mechanisms. It is used to identify and eliminate early-life failures (also called "infant mortality") in ICs before they are shipped to end users.<br/>
+
+🎯 Purpose of Burn-In Testing<br/>
+   - Detect latent manufacturing defects<br/>
+   - Improve long-term product reliability<br/>
+   - Ensure performance under extreme conditions<br/>
+   - Qualify devices for mission-critical applications<br/>
+
+🔁 Typical Test Conditions:<br/>
+   - Temperature	125°C to 150°C (sometimes higher)<br/>
+   - Voltage	1.5× to 2× normal operating voltage<br/>
+   - Duration	24 to 168 hours (1–7 days)<br/>
+   - Environment	Controlled chamber or oven with power applied<br/>
+
+✔️ Common in:<br/>
+   - Automotive-grade ICs (AEC-Q100 compliance)<br/>
+   - Medical electronics<br/>
+   - Aerospace and defense<br/>
+   - Enterprise-grade processors and FPGAs<br/>
+
+❌ Less common in:<br/>
+   - Consumer electronics (phones, laptops) due to cost and time constraints<br/>
+   
+<img width="608" alt="Picture40" src="https://github.com/user-attachments/assets/5d911e24-c5f9-4519-808c-0b027d61fde9" />
 
