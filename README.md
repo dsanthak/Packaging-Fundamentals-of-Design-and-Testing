@@ -750,3 +750,8 @@ Thermal analysis is just one aspect of evaluating a package’s overall performa
 
 
 ## Creating the Die and Substrate in AEDT
+
+Create a rectangle of dimensions 3mmx3mm and thickness of about 0.2mm. This would be the die with Silicon material type.
+
+
+
