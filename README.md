@@ -31,7 +31,8 @@ This repository provides an in-depth understanding into the evolution of packagi
    - [Introduction to Package Testing and Electrical Functionality Checks](#Introduction-to-Package-Testing-and-Electrical-Functionality-Checks)
    - [Reliability and Performance Testing of Semiconductor Packages](#Reliability-and-Performance-Testing-of-Semiconductor-Packages)
 5. [Package Design and Modeling: Building a Semiconductor Package from Scratch](#Package-Design-and-Modeling-Building-a-Semiconductor-Package-from-Scratch)
-
+   - [Introduction to Package Cross-Section Modeling in ANSYS Electronics Desktop](#Introduction-to-Package-Cross-Section-Modeling-in-ANSYS-Electronics-Desktop)
+   - [Creating the Die and Substrate in AEDT](#Creating-the-Die-and-Substrate-in-AEDT)
 
 ## Packaging Evolution: From Basics to 3D Integration
 ## Introduction to Semiconductor Packaging and Industry Overview
@@ -724,8 +725,28 @@ Equipment Examples:<br/>
 
 
 ## Package Design and Modeling: Building a Semiconductor Package from Scratch
+## Introduction to Package Cross-Section Modeling in ANSYS Electronics Desktop
+
+The objective is to create package cross-section in ANSYS AEDT. This lab focuses on designing a semiconductor wire bond package from scratch using Ansys Electronics Desktop (AEDT). The complete cross-section of a wire bond package, including die, substrate, bonding wires, and mold compound is modeled.<br/>
+
+Package Manufacturing Flow:<br/>
+
+🧾 1. Wafer Reception - Fully processed wafer (typically 200 mm or 300 mm) from the foundry. Wafer ID, surface condition, and warpage are checked. Wafer is stored in Front Opening Unified Pods (FOUPs) or cassettes to avoid contamination.<br/>
+🔍 2. Wafer Backgrinding - Reduce wafer thickness to meet package size constraints. Front side is laminated with protective tape. Backside grinding reduces thickness.<br/>
+✂️ 3. Wafer Dicing / Singulation - Separate the wafer into individual dies (chips) by Blade dicing (mechanical) or Laser grooving + breaking (preferred for small pitches).<br/>
+🔗 4. Die Attach - Attach each die to a substrate or leadframe using methods like Epoxy dispensing or die attach film (DAF). Die is cured via thermal or UV process.<br/>
+🔌 5. Interconnect / Die-to-Package Connection - Two main technologies: Wire Bonding (Wires (Au, Cu, or Al) connect die pads to package leads, Common in QFN, SOP, and some BGA packages) & Flip-Chip Bonding (Die is flipped; solder bumps on die connect directly to the substrate, Used in FCBGA, WLCSP, 2.5D/3D ICs).<br/>
+🧱 6. Encapsulation / Molding - Protect the die and wires with Epoxy Molding Compound (EMC).<br/>
+✒️ 7. Marking - Laser or ink marking is applied to the top of the package used to identify Lot number, Product ID, Manufacturing code, Traceability code etc..<br/>
+🪓 8. Package Singulation (Post-Mold Dicing) - Multiple packaged dies on a strip are singulated into individual units. Dicing saw or laser is used to cut molded panels.<br/>
+🧪 9. Final Test / Electrical Testing - Packaged ICs are tested using ATE systems. Devices are binned and sorted.<br/>
+📦 10. Packing & Shipping - Devices are packed in JEDEC trays, tape-and-reel, or bulk. Labeled with date code, lot ID, and destination details. Ready for shipment to OEMs or ODMs.<br/>
 
 
+![Picture43](https://github.com/user-attachments/assets/fe99b39f-1ce9-46df-9652-b4d4bc4c7256) <br/>
 
 
+Thermal analysis is just one aspect of evaluating a package’s overall performance. Equally important is electrical performance, which plays a critical role during the package design phase. Tools like ANSYS Q3D Extractor and Maxwell are commonly used for electrical analysis in this context. However, in this lab, the primary focus will be on building the package structure from the ground up, rather than conducting in-depth electrical or thermal simulations.
 
+
+## Creating the Die and Substrate in AEDT
