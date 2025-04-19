@@ -33,9 +33,9 @@ This repository provides an in-depth understanding into the evolution of packagi
 5. [Package Design and Modeling: Building a Semiconductor Package from Scratch](#Package-Design-and-Modeling-Building-a-Semiconductor-Package-from-Scratch)
    - [Introduction to Package Cross-Section Modeling in ANSYS Electronics Desktop](#Introduction-to-Package-Cross-Section-Modeling-in-ANSYS-Electronics-Desktop)
    - [Creating the Die and Substrate in AEDT](#Creating-the-Die-and-Substrate-in-AEDT)
-   - [Adding Die Attach Material and Bond Pads]
-   - [Wire Bond Creation and Material Assignment]
-   - [Applying Mold Compound and Finalizing the Package Model]
+   - [Adding Die Attach Material and Bond Pads](#Adding-Die-Attach-Material-and-Bond-Pads)
+   - [Wire Bond Creation and Material Assignment](#Wire-Bond-Creation-and-Material-Assignment)
+   - [Applying Mold Compound and Finalizing the Package Model](#Applying-Mold-Compound-and-Finalizing-the-Package-Model)
 
 ## Packaging Evolution: From Basics to 3D Integration
 ## Introduction to Semiconductor Packaging and Industry Overview
@@ -820,11 +820,18 @@ Step 8: Connect pads using wires
 
 ![Picture50](https://github.com/user-attachments/assets/2076c968-2117-48d3-87d7-17a4ae9c6a6d)
 
+![Picture51](https://github.com/user-attachments/assets/2a9c757b-35a6-4da9-a053-2f4c5ea0101b)
 
 ## Applying Mold Compound and Finalizing the Package Model
 
 ### 🛠️ Steps to Create Mold Compound
-Step 9:
+Step 9: Build mold around the die
+   - Add a rectangular mold compound to encapsulate the die and wire bonds
+   - Set thickness: 1.2 mm
+   - Assign mold material (e.g., epoxy molding compound)
+
+Step 10: Post molding, attach solder balls. Define power dissipation for the die and Set boundary conditions. Set up mesh operations and run simulation (thermal or EM). Visualize temperature distribution, current density, or EM fields
+
 
 
 
