@@ -33,6 +33,7 @@ This repository provides an in-depth understanding into the evolution of packagi
 5. [Package Design and Modeling: Building a Semiconductor Package from Scratch](#Package-Design-and-Modeling-Building-a-Semiconductor-Package-from-Scratch)
    - [Introduction to Package Cross-Section Modeling in ANSYS Electronics Desktop](#Introduction-to-Package-Cross-Section-Modeling-in-ANSYS-Electronics-Desktop)
    - [Creating the Die and Substrate in AEDT](#Creating-the-Die-and-Substrate-in-AEDT)
+   - Adding Die Attach Material and Bond Pads
 
 ## Packaging Evolution: From Basics to 3D Integration
 ## Introduction to Semiconductor Packaging and Industry Overview
@@ -751,7 +752,62 @@ Thermal analysis is just one aspect of evaluating a package’s overall performa
 
 ## Creating the Die and Substrate in AEDT
 
-Create a rectangle of dimensions 3mmx3mm and thickness of about 0.2mm. This would be the die with Silicon material type.
+### 🛠️ Steps to Create a Die in ANSYS
+Step 1. Launch ANSYS Electronics Desktop (AEDT)
+   - Choose a project type: Icepak, HFSS 3D Layout, or Q3D Extractor
+   - Create a new project and insert a new design (e.g., Icepak for thermal, HFSS for EM)
+   - Define the Working Units: Go to Modeler → Units
+   - Set units to mm (or μm) for package-scale modeling
+Step 2. Create the Die Geometry
+   - Use Draw → Rectangle to create the die (chip)
+   - Set the dimensions as 3mm x 3mm and the positions (0,0,0) for center
+   - For thickness, apply 0.2mm (after thinning). Modeler -> Surface -> Thicken Sheet and set the thickness as 0.2mm
+   - Pro Tip: Name it clearly (e.g., Die)
+Step 3: Assign Material Properties
+   - Go to Modeler → Assign Material
+   - Choose Silicon from the material library (or create a custom material)
+   - Assign it to the die geometry
+
+![Picture44](https://github.com/user-attachments/assets/2744bc4a-5ca4-4718-9941-25bb90b11bde)
+
+### 🛠️ Steps to Create a Substrate in ANSYS
+Step 4. Create the Substrate Geometry
+   - Create another rectangle for the substrate (e.g., 5mm x 5mm)
+   - Position the substrate such that the die is at the center (e.g., -1, -1, -0.1)
+   - Modeler -> Surface -> Thicken Sheet and set the thickness as -0.5mm
+
+![Picture45](https://github.com/user-attachments/assets/1380e48d-e08a-4f89-ac74-ab524265dd67)
+
+The space between the die and substrate in the below figure is for die attach material.
+
+![Picture46](https://github.com/user-attachments/assets/2a2ef9bb-8656-4c20-bc8c-3ff8c0db39bb)
+
+## Adding Die Attach Material and Bond Pads
+
+### 🛠️ Steps to Create a Die Attach Material
+Step 5: Create the DAM Geometry
+   - Create another rectangle same size as die at origin (0,0,0) to represent die attach epoxy
+   - Set thickness: -0.1 mm
+   - Assign appropriate material such as modified_epoxy for thermal conductivity simulation
+
+![Picture47](https://github.com/user-attachments/assets/48bb9d34-7c5a-4a49-8712-92a322ca3eed)
+
+### 🛠️ Steps to Create Bond Pads
+Step 6: Define Die Pads
+   - Create a thin rectangle to represent the die pad of dimensions 0.2mm x 0.2mm
+   - Set thickness: 0.005 mm
+   - Similarly create pads on the substrate
+
+![Picture48](https://github.com/user-attachments/assets/ab084a86-1b15-47d5-adb6-9da3c00497ec)
+
+Step 7: Create bond pads on both die and substrate
+   - Create the pads across the periphery
+   - These will serve as connection points
+   - Assign material (typically metal types like copper, gold or aluminum)
+
+
+
+
 
 
 
