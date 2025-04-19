@@ -34,6 +34,8 @@ This repository provides an in-depth understanding into the evolution of packagi
    - [Introduction to Package Cross-Section Modeling in ANSYS Electronics Desktop](#Introduction-to-Package-Cross-Section-Modeling-in-ANSYS-Electronics-Desktop)
    - [Creating the Die and Substrate in AEDT](#Creating-the-Die-and-Substrate-in-AEDT)
    - Adding Die Attach Material and Bond Pads
+   - Wire Bond Creation and Material Assignment
+   - Applying Mold Compound and Finalizing the Package Model
 
 ## Packaging Evolution: From Basics to 3D Integration
 ## Introduction to Semiconductor Packaging and Industry Overview
@@ -801,11 +803,27 @@ Step 6: Define Die Pads
 ![Picture48](https://github.com/user-attachments/assets/ab084a86-1b15-47d5-adb6-9da3c00497ec)
 
 Step 7: Create bond pads on both die and substrate
-   - Create the pads across the periphery
+   - Create the pads across the periphery of the die and substrate as shown in the below figure
    - These will serve as connection points
    - Assign material (typically metal types like copper, gold or aluminum)
 
 
+## Wire Bond Creation and Material Assignment
+
+### 🛠️ Steps to Create Bond Wires
+Step 8: Connect pads using wires
+   - Draw -> Bondwire
+   - Connect the die pads to substrate pads using gold wire
+
+![Picture49](https://github.com/user-attachments/assets/2d27c37c-9d87-4c85-914d-3a01f3612e5a)
+
+![Picture50](https://github.com/user-attachments/assets/2076c968-2117-48d3-87d7-17a4ae9c6a6d)
+
+
+## Applying Mold Compound and Finalizing the Package Model
+
+### 🛠️ Steps to Create Mold Compound
+Step 9:
 
 
 
