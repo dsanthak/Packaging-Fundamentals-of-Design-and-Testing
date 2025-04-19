@@ -840,7 +840,7 @@ Step 9: Build mold around the die
 Step 10: Post molding, attach solder balls. Define power dissipation for the die and Set boundary conditions. Set up mesh operations and run simulation (thermal or EM). Visualize temperature distribution, current density, or EM fields
 
 
-## 🧾 Conclusion: Semiconductor Packaging
+## Conclusion: Semiconductor Packaging
 
 Semiconductor packaging is no longer just about protecting the chip—it's a key factor in enabling performance, reliability, and integration. As device complexity increases, packaging must meet demanding electrical, thermal, and form-factor requirements. From traditional leadframe designs to advanced solutions like FCBGA, 2.5D/3D, and wafer-level packaging, the choice of package plays a strategic role in product success.<br/>
 
