@@ -33,9 +33,9 @@ This repository provides an in-depth understanding into the evolution of packagi
 5. [Package Design and Modeling: Building a Semiconductor Package from Scratch](#Package-Design-and-Modeling-Building-a-Semiconductor-Package-from-Scratch)
    - [Introduction to Package Cross-Section Modeling in ANSYS Electronics Desktop](#Introduction-to-Package-Cross-Section-Modeling-in-ANSYS-Electronics-Desktop)
    - [Creating the Die and Substrate in AEDT](#Creating-the-Die-and-Substrate-in-AEDT)
-   - Adding Die Attach Material and Bond Pads
-   - Wire Bond Creation and Material Assignment
-   - Applying Mold Compound and Finalizing the Package Model
+   - [Adding Die Attach Material and Bond Pads]
+   - [Wire Bond Creation and Material Assignment]
+   - [Applying Mold Compound and Finalizing the Package Model]
 
 ## Packaging Evolution: From Basics to 3D Integration
 ## Introduction to Semiconductor Packaging and Industry Overview
@@ -807,6 +807,7 @@ Step 7: Create bond pads on both die and substrate
    - These will serve as connection points
    - Assign material (typically metal types like copper, gold or aluminum)
 
+![Picture51](https://github.com/user-attachments/assets/2a9c757b-35a6-4da9-a053-2f4c5ea0101b)
 
 ## Wire Bond Creation and Material Assignment
 
